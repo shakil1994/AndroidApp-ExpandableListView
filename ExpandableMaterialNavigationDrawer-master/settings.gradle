@@ -1,0 +1,2 @@
+rootProject.name='Expandable Material Navigation Drawer'
+include ':app'

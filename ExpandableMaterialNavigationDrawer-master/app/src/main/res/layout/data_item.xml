@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorAccent">
+
+    <in.imranalam.app.expandablematerialnavigationdrawer.view.LevelBeamView
+        android:id="@+id/dataItemLevelBeam"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/data_item_row_height" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/di_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="7dp"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/dataItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dataItemArrow"
+        style="@style/Widget.AppCompat.DrawerArrowToggle"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="7dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_right_arrow" />
+
+</RelativeLayout>

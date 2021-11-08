@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff1744</color>
+    <color name="colorPrimaryDark">#c4001d</color>
+    <color name="colorAccent">#ff616f</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="level_0">#c4001d</color>
+    <color name="level_1">#f50057</color>
+    <color name="level_2">#ff4081</color>
+    <color name="level_3">#8e44ad</color>
+    <color name="level_4">#f1c40f</color>
+    <color name="level_5">#ff1744</color>
+    <color name="level_6">#056035</color>
+    <color name="level_default">#000000</color>
+</resources>

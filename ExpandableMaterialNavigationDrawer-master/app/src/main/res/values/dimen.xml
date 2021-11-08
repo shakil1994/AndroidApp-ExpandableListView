@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="data_item_row_height">45dp</dimen>
+    <dimen name="data_item_row_padding">5dp</dimen>
+
+    <dimen name="level_beam_line_width">6dp</dimen>
+    <dimen name="level_beam_line_offset">2dp</dimen>
+
+</resources>
